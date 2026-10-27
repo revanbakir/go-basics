@@ -1,0 +1,32 @@
+package main
+
+import "fmt"
+
+func topla( a int, b int) int {
+	return a + b
+}
+
+func topla2(k, l, m int) int {
+	return k+l+m
+}
+
+func yazdir() {
+	fmt.Println("yazı yaz")
+}
+
+func islem(sayi int) (x, y int) {
+	x = sayi/2
+	y = sayi*2
+	return
+$$$$$44}
+
+
+func main() {
+
+	fmt.Println(topla(5, 3))
+	yazdir()
+	fmt.Println(islem(5)) // 2 10
+	fmt.Println(topla2(1,2,3))
+}
+
+
