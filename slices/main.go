@@ -37,4 +37,9 @@ func main() {
 	z = append(z, "emir")
 	fmt.Println(z)
 	fmt.Println(len(z), cap(z))
+
+	var isimler = []string{"revan", "emir", "melisa", "ali", "zeynep", "simay"}
+	for m, n := range isimler {
+		fmt.Printf("%d. index = %s\n", m, n)
+	}
 }
