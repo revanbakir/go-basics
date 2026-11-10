@@ -1,8 +1,0 @@
-package main
-
-import (
-"fmt"
-"sync"  // mutexi kullanmak için
-)
-
-
