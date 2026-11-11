@@ -24,7 +24,9 @@ func main() {
 	fmt.Println("x uzunluk: ", len(x))
 	fmt.Println("x kapasite: ", cap(x))
 	fmt.Println("x içerik: ", x)
-	fmt.Println("y uzunluk: ", len(y))
+	fmt.Println("y uzunluk: ", len(y))  
+
+	// slice kapasitesi aşladığı değerden dizinin sonuna kadar olan eleman sayısını verir
 	fmt.Println("y kapasite: ", cap(y))
 	fmt.Println("y içerik: ", b) 
 
