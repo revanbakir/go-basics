@@ -36,7 +36,7 @@ func TestIntBaseTableDriven(t *testing.T) {
 	for _, tt := range tests {
 		
 		testname := fmt.Sprintf("%d %d", tt.a, tt.b)
-		t.Run (testname, func(t *testing.T) {
+		t.Run (testname, func(t *testing.T) {  // subtest
 			ans := IntMin(tt.a, tt.b)
 			if ans != tt.want {
 				t.Errorf("got %d, want %d", ans, tt.want)
