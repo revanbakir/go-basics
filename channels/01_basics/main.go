@@ -5,6 +5,10 @@ import (
 "time"
 )
 
+/* kanallar goroutine'lerin iletişim kurmasının ve yürütmelerini 
+   senkronize etmenin bir yoludur. kanallar verilerin okuyup yazlabildiği 
+   veri aktarım borularıdır (pipe) 
+*/
 
 func main() {
 
