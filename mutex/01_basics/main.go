@@ -7,6 +7,8 @@ import (
 
 
 // concurrent programlamada paylaşılan bir kaynağa aynı anda yalnızca bir goroutine'in erişebilmesini sağlar
+// race conditions engellenir
+
 
 // global mutex nesnesi oluşturma
 var mt sync.Mutex
