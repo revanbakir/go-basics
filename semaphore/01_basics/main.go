@@ -33,5 +33,5 @@ func main() {
 func SendPromoEmail(uid int) {
 	// Simulate email sending
 	fmt.Printf("sending email to user %d\n", uid)
-	time.Sleep(100*time.Millisecond)
+	time.Sleep(100*time.Millisecond)	
 }
