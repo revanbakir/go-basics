@@ -42,4 +42,3 @@ func fonksiyon2(wg *sync.WaitGroup) {
 	
 
 
-
